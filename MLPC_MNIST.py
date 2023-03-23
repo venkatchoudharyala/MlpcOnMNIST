@@ -32,4 +32,9 @@ accuracy = accuracy_score(y_test, y_pred)
 
 print("Accuracy:", accuracy)
 
+plt.plot(model.loss_curve_)
+plt.xlabel('Iteration number')
+plt.ylabel('Loss')
+plt.title('Iteration number vs. loss for MLPClassifier')
+plt.show()
 
