@@ -32,6 +32,7 @@ accuracy = accuracy_score(y_test, y_pred)
 
 print("Accuracy:", accuracy)
 
+#Plotting the loss curve
 plt.plot(model.loss_curve_)
 plt.xlabel('Iteration number')
 plt.ylabel('Loss')
